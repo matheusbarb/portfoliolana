@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.center {
+    display: flex;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+
+section.inicios{
+    background-image: linear-gradient(to left, #bc98f3, #d3bcf6, #f79ae5, #f47edd, #f47e8e); 
+    animation: degrade-animado 3s infinite alternate;
+    background-size: 500% 100%;
+    padding: 15px 0 15px 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.nome{
+    width: 75%;
+    font-size: 20px ;
+    font-weight: 150;
+    color: aliceblue;
+    
+    
+}
+
+a{
+  transition: 0.3s;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+
+section.apresentacao{
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+.box{
+    padding: 10px;
+    width: 50%;
+}
+
+.box img{
+    
+    width: 100%;
+    border: 8px solid rgba(218, 188, 247, 0.849);
+    border-radius: 68% 32% 55% 45% / 88% 42% 58% 12%;
+
+}
+
+
+
+.texto{
+    margin-top: 10%;
+    width: 100%;
+    
+    
+}
+
+.texto h3{
+
+    font-weight: lighter;
+    font-size: 40px;
+   
+    color: #8037ee;
+    
+    
+}
+
+.texto a{
+
+  font-weight: lighter;
+  font-size: 18px;
+  
+  color: #8037ee;
+ 
+  
+}
+
+.texto img{
+  margin-top: 5px;
+  width: 50px;
+}
+
+.texto img:hover{
+  cursor: pointer;
+  border-bottom: 2px solid white;
+}
+
+
+.box img{
+    display:flex;
+}
+
+.colum img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    column-gap: 10px;
+    
+}
+
+section.colunas {
+    column-count: 4;
+    column-gap: 15px;
+    background-image: linear-gradient(to left, #bc98f3, #d3bcf6, #f79ae5, #f47edd, #f47e8e);
+    animation: degrade-animado 3s infinite alternate;
+    background-size: 500% 100%;
+
+}
+
+
+    
+    
+
+
+.redes img:hover{
+    border-bottom: 10px solid ;
+
+}
+
+section.sobremim{
+    display: flex;
+    background-color: #fbf0ff;
+}
+
+.textosobre{
+    margin-top: 50px;
+    width: 50%;
+
+}
+
+.textosobre h1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 35px;
+    color: #8037ee;
+}
+
+.textosobre a{
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: left;
+  font-weight: lighter;
+}
+.textosobre p{
+   
+    text-align: left;
+    margin: 50px;
+}
+.sobre{
+    margin-left: 50px;
+    margin-top: 5px;
+    position: relative;
+    width: 50%;
+    max-width: 800px;
+    
+}
+
+.perfil{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #bc98f3;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    border-radius: 20px;
+  }
+
+  .sobre:hover .overlay{
+    width: 100%;
+    left: 0;
+  }
+
+
+
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+  .container {
+    margin-left: 10px;
+    width: 100%; 
+    background-color: #fbf0ff; 
+    align-items: center;
+    
+    
+  }
+  
+  .skills {
+    text-align: right; 
+    padding-top: 1px; 
+    padding-bottom: 1px; 
+    color: white;
+    font-size: 10px;
+  }
+  
+  .html {width: 90%; background-color: #bc98f3; border-radius: 15px;} 
+  .css {width: 80%; background-color: #bc98f3; border-radius: 15px;} 
+  .js {width: 65%; background-color: #bc98f3; border-radius: 15px;} 
+  .php {width: 60%; background-color: #bc98f3; border-radius: 15px;} 
+  
+  .textosobre p{
+    font-weight: lighter;
+    font-size: 20px;
+    color: #8037ee;
+    margin: 10px 10px 10px 10px;
+
+
+  }
+
+  .textosobre h3{
+    font-weight: lighter;
+    font-size: 20px;
+    
+    margin: 10px 10px 10px 10px;
+
+
+  }
+  .textosobre h2{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 35px;
+    color: #8037ee;
+  }
+
+
+  .textosobre a.curriculos {
+    background-color: #bc98f3;
+    padding: 10px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+  }
+
+  .separacao{
+    margin-left: 350px;
+    margin-top: 50px;
+  }
+
+  
+
+
+  
+  
+ 
+ 
+  .projetoinicio h2{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 35px;
+    color: #8037ee;
+  }
+
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 10px;
+    
+  }
+  
+ 
+  .row,
+  .row > .column {
+    padding: 8px;
+    
+  }
+  
+
+  .column {
+    float: left;
+    width: 20%;
+    display: none; 
+    
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  
+  .show {
+    display: block;
+    text-align: center;
+  }
+  
+ 
+  
+  .btn {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #dcc5ff;
+
+  }
+  
+  .btn.active {
+    background-color: #bc98f3;
+    color: white;
+  }
+
+  section.contato{
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f2e9ff;
+
+}
+
+section.contato >  h1{
+    
+    font-weight: lighter;
+    font-size: 35px;
+    color: #8037ee;
+}
+
+.contato input[type=text], .contato input[type=email]
+{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding-left: 10px;
+}
+
+.contato textarea {
+        width: 100%;
+        height: 120px;
+        margin: 20px 0;
+        border-radius: 10px;
+        background: whitesmoke;
+        border: 1px solid whitesmoke;
+        padding: 10px;
+        resize: vertical;
+    
+}
+section.contato form {
+    width: 100%;
+}
+
+.contato input[type=submit]{
+
+    width: 100%;
+    height: 30px;
+    background-color: #bc98f3;
+    font-size: 10px;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+footer{
+  padding: 15px 0;
+  background: #bc98f3;
+  color: white;
+}
+
+.textfooter{
+  
+  padding: 10px;
+
+}
+
+
+
+@keyframes degrade-animado {
+
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 999px) {
+      
+      section.apresentacao {
+        display: inline-block ;
+      }
+      section.apresentacao > .texto h3{
+        font-size: 25px;
+        
+        
+      }
+      
+      section.apresentacao > .texto a{
+        font-size: 15px;
+        
+      }
+
+      section.apresentacao > .texto img{
+        width: 8%;
+      }
+      section.apresentacao > .box{
+        width: 100%;
+      }
+      
+      section.sobremim {
+        display: inline-block;
+        
+      }
+      
+      .textosobre {
+        width: 100%;
+        
+      }
+
+      .textosobre h3{
+        text-align: left;
+        font-size: 18px;
+        
+
+      }
+
+      .container {
+        width: 95%;
+        
+      }
+      
+
+      .sobre{
+        width:85%;
+      }
+
+
+      .separacao{
+        margin-left: 200px;
+        margin-bottom: 30px;
+      }
+
+      .column {
+        width: 50%;
+        float: left;
+      }
+  }
+
+
+
+  
