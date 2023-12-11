@@ -278,7 +278,7 @@ section.sobremim{
   
 
 
-  
+
   
  
  
@@ -437,6 +437,15 @@ footer{
         background-position-x: 100%;
     }
     
+}
+
+section.projetos{
+  text-align: center;
+}
+
+.projetoinicio a {
+  font-size: 12px;
+  color: #d3bcf6;
 }
 
 @media screen and (max-width: 999px) {
